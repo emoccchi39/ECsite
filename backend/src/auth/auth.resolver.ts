@@ -1,6 +1,6 @@
 import { Args, Context, Mutation, Resolver } from '@nestjs/graphql';
 import { AuthService } from './auth.service';
-import { SignInResponse } from './dto/signinResponse';
+import { SignInResponse } from './dto/signInResponse';
 import { UseGuards } from '@nestjs/common';
 import { SignInInput } from './dto/signIn.input';
 import { GqlAuthGuard } from './guards/gql-auth.guard';
